@@ -19,6 +19,7 @@ int main() {
     - The terminal is the black panel on the bottom. It should be blank right now. The code in the text editor will print text out onto the terminal. More specifically, it will print the phrase Hello World!.
     */
     
+    //Press Run to see this program in action.
     std::cout << "Hello World!\n";
     
     /*
@@ -32,7 +33,36 @@ int main() {
     - ; is a punctuation that tells the computer that you are at the end of a statement. It is similar to a period in a sentence.
     */
     
+    //Let’s write the whole std::cout statement from scratch. Inside the curly braces, type the following and press Run:
     std::cout << "Codecademy\n";
     
+    /*
+    - We learned how to output a line of text with the following code: std::cout << "🚙💨\n";
+    - It will output: 🚙💨
+    - We can also output multiple lines by adding more std::cout statements:
+        std::cout << "Hello\n";
+        std::cout << "Goodbye\n";
+    - This will output:
+        Hello
+        Goodbye
+    */
     
+    //Instead of displaying those two lines in the output, edit the code so that we output the number 1-10 in a triangle pattern with 1 being in the top right and 10 being in the bottom right.
+    std::cout << "      1\n";
+    std::cout << "    2 3\n";
+    std::cout << "  4 5 6\n";
+    std::cout << "7 8 9 10\n";
+    
+    /*
+    - Woohoo! You have written a few C++ programs. 🙌
+    - In this lesson, you have learned:
+        > C++ is a general-purpose coding language.
+        > C++ runs line by line, from top to bottom.
+        > std::cout is how you output to the terminal: std::cout << "Good luck!\n";
+    */
+    
+    //Before we move on, let’s write a letter to your future self. In letter.cpp, let’s add the following: Goal(s) for yourself and name and date. Press Run to mail the letter! 📬
+    std::cout << "Dear Self,\n";
+    std::cout << "I want to learn how to code in C++ to become better equipped for real world projects such as computer vision or automation";
+    std::cout << "Rhys Julian-Jones 4-6-21";
 }
