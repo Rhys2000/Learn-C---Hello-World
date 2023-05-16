@@ -20,7 +20,7 @@ int main() {
     */
     
     // 1. Press Run to see this program in action.
-    std::cout << "Hello World!\n";
+    std::cout << "Hello World!\n\n";
     
     /*
     - High five! We just got your first program to run.
@@ -34,7 +34,7 @@ int main() {
     */
     
     // 1. Let’s write the whole std::cout statement from scratch. Inside the curly braces, type the following and press Run:
-    std::cout << "Codecademy\n";
+    std::cout << "Codecademy\n\n";
     
     /*
     - We learned how to output a line of text with the following code: std::cout << "🚙💨\n";
@@ -51,7 +51,7 @@ int main() {
     std::cout << "      1\n";
     std::cout << "    2 3\n";
     std::cout << "  4 5 6\n";
-    std::cout << "7 8 9 10\n";
+    std::cout << "7 8 9 10\n\n";
     
     /*
     - Woohoo! You have written a few C++ programs. 🙌
@@ -63,8 +63,8 @@ int main() {
     
     // 1. Before we move on, let’s write a letter to your future self. In letter.cpp, let’s add the following: Goal(s) for yourself and name and date. Press Run to mail the letter! 📬
     std::cout << "Dear Self,\n";
-    std::cout << "I want to learn how to code in C++ to become better equipped for real world projects such as computer vision or automation";
-    std::cout << "Rhys Julian-Jones 4-6-21";
+    std::cout << "I want to learn how to code in C++ to become better equipped for real world projects such as computer vision or automation.\n";
+    std::cout << "Rhys Julian-Jones 4-6-21\n\n";
     
     /*
     - C++ is a compiled language. That means that to get a C++ program to run, you must first translate it from a human-readable form to something a machine can “understand.” That translation is done by a program called a compiler.
@@ -113,7 +113,7 @@ int main() {
     
     // 1. Let’s practice adding a comment. Add a new line above #include <iostream>. Write a single line comment that says Harry Potter.
         // Harry Potter
-        std::cout << "Expecto Patronum\n";
+        std::cout << "Expecto Patronum\n\n";
     // 2. Compile and execute spell.cpp using the terminal. This checkpoint will pass after you compile and execute.
     
     /*
@@ -122,4 +122,25 @@ int main() {
         > Single line comments can be created using //.
         > Multi-line comments can be created using.
     */
+    
+    /*
+    - Write a C++ program called initials.cpp that displays the initials of your name in block letters as shown: Happy coding!
+    */
+    
+    // 1. My initials are R, J and J, so my initials.cpp program should output: What are your initials? Take a look at the complete alphabet.
+    // 2. First, write a comment with a fun fact about yourself!
+    // 3. And let’s create a skeleton for the program:
+    // 4. Output your first initial. Press Save to save your program.
+    // 5. Compile and execute to make sure you got the result. To compile, type the following after the $ sign and press enter: g++ initials.cpp To execute, type the following and press enter: ./a.out
+    // 6. Output your second initial. Press Save to save your program.
+    // 7. Compile and execute to make sure you got the result.
+    
+    //I had a heart attack when I was only 18 years old
+    std::cout << "RRRR  JJJJJ JJJJJ\n";
+    std::cout << "R   R   J     J  \n";
+    std::cout << "R   R   J     J  \n";
+    std::cout << "RRRR    J     J  \n";
+    std::cout << "R R   J J   J J  \n";
+    std::cout << "R  R  J J   J J  \n";
+    std::cout << "R   R  JJ    JJ  \n\n";
 }
