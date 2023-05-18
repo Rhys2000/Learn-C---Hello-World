@@ -123,6 +123,8 @@ int main() {
         > Multi-line comments can be created using.
     */
     
+    //Initials Project
+    
     /*
     - Write a C++ program called initials.cpp that displays the initials of your name in block letters as shown: Happy coding!
     */
